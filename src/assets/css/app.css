@@ -1,0 +1,190 @@
+.activity .header {
+    background-color: #fff;
+    padding: 10px;
+    height: 35px
+}
+
+.activity .header img {
+    line-height: 100%;
+    float: left;
+    height: 40px;
+    width: 100px
+}
+
+.activity .header .first,.activity .header .repetition {
+    background-color: #56ce8b;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 2px 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: block;
+    float: left
+}
+
+.activity .header .repetition {
+    background-color: #ffa975
+}
+
+.activity .header .risk {
+    border-radius: 2em;
+    border: 1px solid #f2d651;
+    float: right;
+    font-size: 13px;
+    margin-top: 5px
+}
+
+.activity .header .risk>b {
+    background-color: #f2d651;
+    display: block;
+    float: left;
+    border-radius: 2em;
+    padding: 2px 10px
+}
+
+.activity .header .risk>span {
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 2px;
+    display: block;
+    float: left
+}
+
+.activity .header .risk>span>b {
+    color: red
+}
+
+.activity .panel {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    padding-left: 5px;
+    margin-bottom: 20px
+}
+
+.activity .panel>h4 {
+    font-weight: 400;
+    border-left: 5px solid #f2d651;
+    padding-left: 7px;
+    margin-left: 3px;
+    line-height: 100%;
+    margin-bottom: 10px
+}
+
+.activity .panel .content {
+    margin-left: 15px;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+.activity .panel .content img {
+    max-width: 100%
+}
+
+.activity .panel .light b {
+    color: red
+}
+
+.activity .panel .light i {
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 5px
+}
+
+.activity .panel .light ul {
+    list-style: none
+}
+
+.activity .panel .light ul li {
+    border: 1px solid #fa882e;
+    color: #fa882e;
+    border-radius: 2em;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 2px 15px;
+    font-size: 14px
+}
+
+.activity .not-available {
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffdf98;
+    padding: 10px
+}
+
+.activity .close,.activity .open-platform {
+    margin: 20px 10px;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #179ee0;
+    background-color: #10aeff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px
+}
+
+.activity .close {
+    border: 1px solid #ffc000;
+    background-color: #ff9100
+}
+
+.activity .top-status {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd
+}
+
+.activity .top-status.s10 {
+    color: #ed7d31
+}
+
+.activity .top-status.s20 {
+    color: #ffc000
+}
+
+.activity .top-status.s30 {
+    color: #e2efda
+}
+
+.activity .top-status.s100 {
+    color: #70ad47
+}
+
+.activity .top-status.s1030 {
+    color: #a5a5a5
+}
+
+.activity .plan-list .weui-cell__ft {
+    color: red;
+    font-weight: 700
+}
+
+.activity-list .first,.activity-list .repetition {
+    background-color: #56ce8b;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 3px 5px;
+    margin-right: 5px
+}
+
+.activity-list .repetition {
+    background-color: #ffa975
+}
+
+.activity-list .risk {
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 3px 5px;
+    margin-right: 5px;
+    background-color: #eee
+}
+
+.activity-list .vux-label-desc b {
+    color: #f30
+}
